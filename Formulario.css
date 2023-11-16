@@ -1,0 +1,79 @@
+#cuerpo {
+    background-image: linear-gradient(#ac4e4e, #676ca0);
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.formulario {
+    color:linen;
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 500px;
+    width: 300px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 2px solid black;
+    gap: 10px;
+    box-shadow: 6px 6px 0.2px 1.5px rgba(0, 0, 0, 0.60);
+}
+
+#titulo {
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0;
+    text-decoration: wavy;
+}
+
+.etiqueta {
+    font-size: 0.9em;
+    text-indent: 10px;
+}
+
+#boton {
+    color: rgb(214, 214, 214);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    box-sizing: border-box;
+    position: relative;
+    top: 1.5em;
+    left: 5em;
+    width: 100px;
+    height: 35px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+.input {
+    background-color: rgba(0, 0, 0, 0.60);
+    color: rgb(214, 214, 214);
+    text-indent: 10px;
+    height: 35px;
+    width: 250px;
+    box-sizing: border-box;
+    outline: 0;
+    border-radius: 15px;
+    border: none;
+}
+.input::placeholder {
+    text-indent: 10px;
+    color: rgba(160, 160, 160, 0.75);
+}
